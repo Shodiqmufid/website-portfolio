@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website portfolio</title>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/fontawesome/css/all.css">
+</head>
+<body> 
+    <!-- navbar (menu) -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-secondary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="50px">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" aria-current="page"> <i class="fas fa-home"></i> home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile"> <i class="fas fa-user"></i> profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill"> <i class="fas fa-star"></i> skils</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio"> <i class="fas fa-table"></i> portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> <i class="fas fa-mobile"></i> contact</a >
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+
+    <!-- jumbotorn -->
+    <div id="home" class="p-5 mb-4 bg-light rounded-3">
+        <div class="container py-5">
+          <h1 class="display-5 fw-bold">i am <span class="text-primary">S.H.M</span> </h1>
+          <p class="col-md-8 fs-4">progammer, student, good lookking, baddminton, swimming, wacht disney movie</p>
+          <button class="btn btn-outline-secondary btn-md" type="button"> <i class="fas fa-user"></i> about me</button>
+        </div>
+      </div>
+    <!-- akhir jumbotrn -->
+
+    <!-- carosel -->
+    <div id="profile" class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/0_q18Hxb-JQWBmEJeJ.jpeg" class="w-100 d-block" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Gunung 2.jpg" class="w-100 d-block" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Gunung 3.jpg" class="w-100 d-block" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-1">profile</h1>
+                <dl class="row">
+                    <dt class="col-sm-3"><i class="fas fa-user"></i>Nama</dt>
+                    <dd class="col-sm-9">Muhammad Bintang Harkel</dd>
+                    <dt class="col-sm-3"><i class="fas fa-id-card"></i>Panggilan</dt>
+                    <dd class="col-sm-9">Harkel</dd>
+                    <dt class="col-sm-3"><i class="fas fa-calendar"></i>Tanggal Lahir</dt>
+                    <dd class="col-sm-9">23 Februari 2009</dd>
+                    <dt class="col-sm-3"><i class="fas fa-location"></i>Alamat</dt>
+                    <dd class="col-sm-9">Payakumbuh, Sumatera Barat</dd>
+                    <dt class="col-sm-3"><i class="fas fa-user-tie"></i>Pekerjaan</dt>
+                    <dd class="col-sm-9">Pelajar</dd>
+                    <dt class="col-sm-3"><i class="fas fa-building"></i>Sekolah</dt>
+                    <dd class="col-sm-9">SMP Islam Raudhatul Jannah</dd>
+                </dl>
+                <button type="button" class="btn btn-outline-dark"><i class="fas fa-book"></i>Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- akhri carosel -->
+
+    <!-- quate -->
+    <figure class="text-center mt-5 mb-5">
+        <blockquote class="blockquote">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eveniet ratione enim ullam autem perspiciatis quibusdam rerum exercitationem praesentium modi inventore recusandae, omnis hic expedita voluptatibus et quisquam nesciunt possimus!</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+    <!--akhir quate  -->
+
+    <!--awal progress  -->
+    <h1 id="skill" class="display-4 text-center mb-5">skill</h1>
+   <div class="container">
+    <div class="progress mb-3">
+        <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;"
+            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">html</div>
+    </div>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" 
+            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"> java script</div>
+    </div>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;"
+            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">css</div>
+    </div>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;"
+            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">desingt</div>
+    </div>
+    <div class="progress ">
+        <div class="progress-bar bg-dark" role="progressbar" style="width: 60%;"
+            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">games</div>
+    </div>
+   </div>
+   <!-- akhir progress -->
+
+   <h1 id="portfolio" class="display-4 text-center mb-5 mt-5">portfolio</h1>
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/comic.png" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+               <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/ppt.png" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Untitled.png" alt="Title" width="50px">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/geo.png" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+               <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/ss.png" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Untitledsamaf.png" alt="Title" width="50px">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- akhir portfolio -->
+
+      <!-- contact -->
+   <div id="contact" class="container">
+    <section class="text-center dark-grey-text">.
+        <div class="card">
+            <div class="card-body rounded-top -border-top p-5s">
+                <h3 class="font-weigth-bold my-4s">contact</h3>
+                <p>hubungi/kirimkan saya pesans</p>    
+                <form class="mb-4 mx-md-5" action="" method="post">
+                    <!-- baris 1 -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                              <input type="text"
+                                class="form-control" name="" id="" aria-describedby="helpId" placeholder="nama">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-3">
+                                <input type="text"
+                                  class="form-control" name="" id="" aria-describedby="helpId" placeholder="email">
+                              </div>
+                        </div>
+                    </div>
+                    <!-- baris 2 -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mb-3">
+                              <input type="text"
+                                class="form-control" name="" id="" aria-describedby="helpId" placeholder="subject">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- baris 3 -->
+                    <div class="row">
+                        <div class="mb-3">
+                          <textarea class="form-control" name="" id="" rows="3" placeholder="ketik pesan disini"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-outline-secondary">submit</button>
+                </form>          
+            </div>
+        </div>
+    </section>
+   </div>
+   <!-- akhri contact -->
+
+   <!-- footer -->
+   <footer class="footer text-center">
+        <div class="container">
+            <div class="footer-copyrigh">copyrigh &copy; s.h.m</div>
+        </div>
+   </footer>
+   <!-- akhrur footer -->
+
+
+
+
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+    <script src="src/js/bootstrap.min.js"></script>
+</body>
+</html>
